@@ -1,6 +1,7 @@
 # Systems Manager
 
-The AWS Systems Manager (SSM) Agent is a great tool for executing automations in the AWS environment. One particularly
+The [AWS Systems Manager (SSM) Agent](https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html)
+is a great tool for executing automations in the AWS environment. One particularly
 great use case that the agent facilitates is SSH-less access to remote systems. Unlike the
 [EC2 Instance Connect tool](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html)
 SSM does not require leaving port 22 access open via security group. Similarly to EC2 Instance Connect, calls to start
