@@ -112,8 +112,8 @@ case $state in
     ;;
 esac
 EOF
-echo 'alias start_session="aws ssm start_session --target"' >> .zshrc
-echo 'fpath=("${CUSTOM_DIR}" ${fpath})' >> .zshrc
+echo 'alias start_session="aws ssm start_session --target"' >> ${HOME}/.zshrc
+echo 'fpath=("${CUSTOM_DIR}" ${fpath})' >> ${HOME}/.zshrc
 ```
 
 ### Alias completions
@@ -122,7 +122,7 @@ If you don’t already have the option set, you’ll want to enable alias comple
 expanded prior to autocompletion:
 
 ```sh
-echo 'setopt completealiases' >> .zshrc
+echo 'setopt completealiases' >> ${HOME}/.zshrc
 ```
 
 _*Note to `ohmyzsh` users:*_ You may need to add these lines to the top of your `.zshrc` prior to the `ohmyzsh`
