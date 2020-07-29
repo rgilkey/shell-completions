@@ -124,7 +124,7 @@ expanded prior to autocompletion:
 echo 'setopt completealiases' >> .zshrc
 ```
 
-_*Note to ohmyzsh users:*_ You may need to add these lines to the top of your `.zshrc` prior to the `ohmyzsh`
+_*Note to `ohmyzsh` users:*_ You may need to add these lines to the top of your `.zshrc` prior to the `ohmyzsh`
 initialization for it to work.
 
 If for some reason you can't use the `completaliases` shell option - for example, you have a bunch of Git aliases
