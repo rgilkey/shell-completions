@@ -80,7 +80,7 @@ $ start_session **<tab>
 $ start_session log**<tab>
 ```
 
-More informaion on search patterns can be found in the
+More information on search patterns can be found in the
 [`fzf` documentation](https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh).
 
 # ZSH
@@ -112,7 +112,7 @@ case $state in
     ;;
 esac
 EOF
-echo 'alias start_session="aws ssm start_session --target"' >> ${HOME}/.zshrc
+echo 'alias start_session="aws ssm start-session --target"' >> ${HOME}/.zshrc
 echo 'fpath=("${CUSTOM_DIR}" ${fpath})' >> ${HOME}/.zshrc
 ```
 
